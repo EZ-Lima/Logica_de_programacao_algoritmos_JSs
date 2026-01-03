@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resp1_c</title>
+</head>
+<body>
+    <script>
+        const precoProduto = Number(prompt("Digite o preço do produto"));
+        const aVista = ((precoProduto * 0.10) - precoProduto) * -1;
+        const parcelado = precoProduto / 3;
+        alert(`Preço R$${precoProduto.toFixed(2)}\nÀ Vista: R$${aVista.toFixed(2)}\nOu 3x de R$${parcelado.toFixed(2)}`);
+    </script>
+</body>
+</html>
